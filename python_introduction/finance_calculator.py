@@ -7,7 +7,7 @@ monthly_savings = user_monthly_income - user_monthly_expenses
 
 
 
-projected_saving = monthly_savings * 12 + (monthly_savings * 12 * .05)
+projected_saving = (monthly_savings * 12) + (monthly_savings * 12 * .05)
 
 print(f"Your monthly savings are ${monthly_savings}")
 print(f"Projected savings after one year, with interest, is: ${projected_saving}")

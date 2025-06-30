@@ -9,9 +9,9 @@ class Book:
 
 
 class PrintBook(Book):
-    def __init__(self, title, author, year, pages):
+    def __init__(self, title, author, year, page_count):
         super().__init__(title, author, year)
-        self.pages = pages
+        self.page_count = page_count
 
 
 class EBook(Book):
